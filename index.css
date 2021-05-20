@@ -1,0 +1,37 @@
+.data
+{
+    width:240px;
+    height:90px;
+    background-color:rgb(255, 255, 255);
+    margin: 10px;
+    padding: 20px;
+    border: none;
+    box-shadow: 2px 2px 2p white;
+    font-family: 'helvetica';
+    font-size: 13px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.country_name ,.confirmed, .deaths, .recoverd
+{
+    padding: 1px;
+}
+
+.heading
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+    
+
+body{
+    background-color: black;
+}
